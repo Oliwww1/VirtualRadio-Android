@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/arlayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_glit_gold" >
+<LinearLayout
+  android:id="@+id/pbgll"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"  
+  android:background="@android:color/transparent"
+  android:orientation="horizontal"
+
+  
+  android:visibility="invisible">
+
+</LinearLayout>
+<LinearLayout 
+      android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="@android:color/transparent"
+    	android:orientation="vertical"
+     >
+     <LinearLayout android:id="@+id/vparent"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_gravity="top"
+     >	
+
+     <SeekBar     
+	    android:id="@+id/tl"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="23sp"  
+	    android:layout_weight="1"  
+	    android:paddingLeft="10sp"
+	    android:paddingTop="3sp"
+	    android:paddingRight="10sp"
+	    android:paddingBottom="10sp"
+	    android:thumb="@android:color/transparent"	
+    />
+     </LinearLayout>
+   <LinearLayout android:id="@+id/llnavi"
+      android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"   
+    	android:orientation="horizontal" 
+        	android:background="@android:color/transparent">
+ 
+</LinearLayout>
+<LinearLayout 
+	android:layout_width="fill_parent"
+     android:layout_height="fill_parent"     
+     android:orientation="vertical"
+     android:background="@drawable/mainfield"
+     android:layout_weight="0"
+     android:clipChildren="true">
+<LinearLayout 
+	android:id="@+id/listparent"
+	android:layout_width="fill_parent"
+     android:layout_height="fill_parent"     
+     android:orientation="vertical"
+     android:background="@android:color/transparent" 
+     android:paddingBottom="24sp"
+     android:paddingTop="8sp"
+     android:paddingLeft="8sp"
+     android:paddingRight="8sp"
+     android:layout_weight="0"     
+      >
+     <TextView
+    android:id="@+id/nix"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:layout_weight="0"
+    /><ListView android:id="@+id/android:list"
+android:background="@android:color/transparent" 
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:cacheColorHint="#00000000"
+android:layout_weight="0"
+
+/></LinearLayout>
+</LinearLayout>
+</LinearLayout>
+<LinearLayout
+		android:id="@+id/waitaniparent"
+      android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	  android:paddingTop="120sp"
+android:paddingLeft="80sp"
+    	android:orientation="horizontal" 
+        	android:background="@color/transp">
+<ImageView 
+android:id="@+id/waitani"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:visibility="invisible"
+android:background="@color/translucent_dark"
+/>
+</LinearLayout>
+</FrameLayout>

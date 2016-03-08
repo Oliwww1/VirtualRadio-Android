@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  <ScrollView android:id="@+id/sv"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  ><LinearLayout   android:id="@+id/mainlist"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+  <LinearLayout   android:id="@+id/speakers"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+     android:paddingTop="10sp"
+   android:paddingBottom="10sp">
+  </LinearLayout>
+    <LinearLayout   
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+ <TextView 
+  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:paddingBottom="9sp"
+    android:textColor="@color/white"
+   android:text="@string/selbackg" 
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="2"
+    android:shadowColor="@color/black"/> 
+   <HorizontalScrollView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="@color/transp" >
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:paddingTop="2sp"
+  android:paddingBottom="20sp"
+  android:orientation="horizontal">
+  
+		<ImageButton
+		android:id="@+id/setskb1"
+		android:layout_width="40sp"
+	    android:layout_height="40sp"
+	    /><TextView 
+  android:layout_width="14sp"
+    android:layout_height="fill_parent"
+ /> <ImageButton
+	    android:id="@+id/setskb2"
+	    android:layout_width="40sp"
+	    android:layout_height="40sp"
+	    /><TextView 
+  android:layout_width="14sp"
+    android:layout_height="fill_parent"
+ /> <ImageButton
+	    android:id="@+id/setskb3"
+	    android:layout_width="40sp"
+	    android:layout_height="40sp"
+	   
+	    /><TextView 
+  android:layout_width="14sp"
+    android:layout_height="fill_parent"
+ /> <ImageButton
+	    android:id="@+id/setskb4"
+	    android:layout_width="40sp"
+	    android:layout_height="40sp"
+	   
+	    /><TextView 
+  android:layout_width="14sp"
+    android:layout_height="fill_parent"
+ /><Button
+	    android:id="@+id/setskb5"
+	    android:layout_width="40sp"
+	    android:layout_height="40sp"
+	    android:background="@color/translucent_dark2"
+	    
+	    /><TextView 
+  android:layout_width="14sp"
+    android:layout_height="fill_parent"
+ /><Button
+	    android:id="@+id/setskb6"
+	    android:layout_width="40sp"
+	    android:layout_height="40sp"
+	    android:background="@color/redgrey"
+	    /><TextView 
+  android:layout_width="14sp"
+    android:layout_height="fill_parent"
+ /><Button
+	    android:id="@+id/setskb7"
+	    android:layout_width="40sp"
+	    android:layout_height="40sp"
+	    android:background="@color/bluegrey"
+	    /> 	<TextView 
+  android:layout_width="14sp"
+    android:layout_height="fill_parent"
+ /> 		<ImageButton
+		android:id="@+id/setskb8"
+		android:layout_width="40sp"
+	    android:layout_height="40sp"
+	    /><TextView 
+  android:layout_width="14sp"
+    android:layout_height="fill_parent"
+ /> 		<ImageButton
+		android:id="@+id/setskb9"
+		android:layout_width="40sp"
+	    android:layout_height="40sp"
+	    /><TextView 
+  android:layout_width="14sp"
+    android:layout_height="fill_parent"
+ /> 		<ImageButton
+		android:id="@+id/setskb12"
+		android:layout_width="40sp"
+	    android:layout_height="40sp"
+	    /><TextView 
+  android:layout_width="14sp"
+    android:layout_height="fill_parent"
+ /> 		<ImageButton
+		android:id="@+id/setskb13"
+		android:layout_width="40sp"
+	    android:layout_height="40sp"
+	    /><TextView 
+  android:layout_width="14sp"
+    android:layout_height="fill_parent"
+ /><ImageButton
+		android:id="@+id/setskb15"
+		android:layout_width="40sp"
+	    android:layout_height="40sp"
+	    /><TextView 
+  android:layout_width="14sp"
+    android:layout_height="fill_parent"
+ /> 
+  </LinearLayout> </HorizontalScrollView>
+  </LinearLayout>
+  <LinearLayout   
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:paddingTop="10sp">
+
+  <CheckBox android:id="@+id/savecb"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="@string/save_tx"
+    android:textColor="@color/white"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="2"
+    android:shadowColor="@color/black"
+    android:paddingTop="10sp"
+    />
+ <TextView 
+  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="2"
+    android:shadowColor="@color/black"
+    android:textColor="@color/white"
+   android:text="@string/save_tx2" /> 
+     <TextView 
+  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="10sp"
+   android:text=" " 
+   android:layout_gravity="center_horizontal"/>
+  </LinearLayout>
+    <LinearLayout   
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  <CheckBox android:id="@+id/servcb"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+   android:text="@string/http_tx"
+       android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="2"
+    android:shadowColor="@color/black"
+    android:textColor="@color/white"
+    />
+    <TextView 
+    android:id="@+id/httx"
+  	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+        android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="2"
+    android:shadowColor="@color/black"
+   android:text="@string/http_inf" 
+   android:textColor="@color/white"
+   />
+  <TextView 
+  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="10sp"
+   android:text=" " 
+   android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+  <LinearLayout   
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:paddingTop="10sp">
+  <CheckBox android:id="@+id/cachecb2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="@string/save_cache"
+    android:textColor="@color/white"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="2"
+    android:shadowColor="@color/black"
+    />
+ <TextView 
+  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="2"
+    android:shadowColor="@color/black"
+    android:textColor="@color/white"
+   android:text=" " /> 
+  </LinearLayout>
+  <LinearLayout   
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:paddingTop="10sp">
+  <CheckBox android:id="@+id/setmocon"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="@string/mocon2"
+    android:textColor="@color/white"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="2"
+    android:shadowColor="@color/black"
+    />
+ <TextView 
+  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="2"
+    android:shadowColor="@color/black"
+    android:textColor="@color/white"
+   android:text=" " /> 
+  </LinearLayout>
+     <TextView 
+  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+        android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="2"
+    android:shadowColor="@color/black"
+    android:textColor="@color/white"
+   android:text="@string/helptext2" />
+   <TextView 
+  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="4sp"
+   android:text=" " 
+   android:layout_gravity="center_horizontal"/>
+     <TextView 
+  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+        android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="2"
+    android:shadowColor="@color/black"
+    android:textColor="@color/white"
+   android:text="@string/helptext" />
+  </LinearLayout>  
+  </ScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <item name="lil" type="id"/>
+     <item name="listparentitem" type="id"/>     
+     <item name="litx" type="id"/>
+</resources>

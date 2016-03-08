@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"  
+  android:background="@android:color/transparent"
+  android:orientation="vertical"
+
+  android:paddingTop="200dp"
+
+  android:layout_gravity="center_vertical|center_horizontal">
+<Button
+	android:id="@+id/qb1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/translucent_dark"
+	android:text="@string/quit1" 
+	android:textColor="@color/white"
+	android:textColorHighlight="@color/white"
+	android:textSize="20sp"
+	android:padding="10sp"
+	android:layout_gravity="center_horizontal|center_vertical"
+	/> 
+	<Button
+	android:id="@+id/qb2"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"	
+	android:text="@string/quit2" 
+	android:background="@color/translucent_dark"
+	android:textColor="@color/white"
+	android:textColorHighlight="@color/white"
+	android:textSize="20sp"
+	android:padding="10sp"
+	android:layout_gravity="center_horizontal|center_vertical"
+	/>
+	<Button
+	android:id="@+id/qb3"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"	
+	android:text="@string/cancel" 
+	android:background="@color/translucent_dark"
+	android:textColor="@color/white"
+	android:textSize="20sp"
+	android:padding="10sp"
+	android:layout_gravity="center_horizontal|center_vertical"
+	/>
+</LinearLayout>

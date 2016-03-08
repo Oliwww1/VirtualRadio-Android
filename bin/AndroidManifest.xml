@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.vradio"
+      android:versionName="2.51" 
+      android:versionCode="10021"
+      >
+      <uses-sdk android:minSdkVersion="12" />
+      <uses-permission android:name="android.permission.INTERNET" />
+      <uses-permission android:name="android.permission.READ_PHONE_STATE"  android:required="false" />
+      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+      <uses-permission android:name="android.permission.WAKE_LOCK"  android:required="false" />
+      <uses-permission android:name="android.permission.RECORD_AUDIO"  android:required="false" />
+      <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"  android:required="false" />
+      <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"  android:required="false" />
+      <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" android:required="false" />
+      <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"  android:required="false" />
+      <uses-permission android:name="android.permission.VIBRATE" /> 
+	  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> 
+	  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> 
+	  <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/> 
+	  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	  <uses-permission android:name="com.android.vending.BILLING" />
+      
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false">
+				<activity android:name="org.vradio.phone.Start"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+        		<data android:scheme="vradio" />
+        		<action android:name="android.intent.action.VIEW" />
+        		<category android:name="android.intent.category.BROWSABLE" />
+        		<category android:name="android.intent.category.DEFAULT" />
+    		</intent-filter>
+    		<intent-filter>
+        		<data android:scheme="icy" />
+        		<action android:name="android.intent.action.VIEW" />
+        		<category android:name="android.intent.category.BROWSABLE" />
+        		<category android:name="android.intent.category.DEFAULT" />
+    		</intent-filter>
+        </activity>
+    
+        <receiver android:name=".phone.Widget">
+        <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+        </intent-filter>
+        <meta-data android:name="android.appwidget.provider"
+        			android:resource="@xml/vradio_wprovider" />
+        </receiver>
+        <service android:exported="false" android:name="com.giantrabbit.nagare.NagareService" android:enabled="true"></service>
+        <service android:exported="false" android:name="org.teleal.cling.android.AndroidUpnpServiceImpl"></service>
+    </application>
+</manifest> 

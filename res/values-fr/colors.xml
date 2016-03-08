@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="translucent_dark">#99000000</color>
+    <color name="translucent_dark2">#66000000</color>
+    <color name="translucent_dark3">#cc000000</color>
+    <color name="transp">#00ffffff</color>
+    <color name="bright_foreground_dark">#00ffff00</color>
+    <color name="redgrey">#ff552222</color>
+    <color name="bluegrey">#ff222255</color>
+    <color name="rgray1">#ffa0a0a0</color>
+    <color name="rgray2">#ff2f2c2f</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="rgray3">#ff3c3c3c</color>
+</resources>

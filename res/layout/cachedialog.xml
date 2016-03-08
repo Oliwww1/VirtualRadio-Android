@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"  
+  android:background="@android:color/transparent"
+  android:orientation="vertical"
+
+  android:layout_gravity="center_vertical|center_horizontal">
+<TextView
+	android:id="@+id/cachetx"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/translucent_dark3"
+	android:text="@string/cachetx1" 
+	android:textColor="@color/white"
+	android:textSize="20sp"
+	android:padding="10dp"
+	android:layout_gravity="center_horizontal|center_vertical"
+	/> 
+	<Button
+	android:id="@+id/cachealways"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/translucent_dark3"
+	android:text="@string/cachetx2" 
+	android:textColor="@color/white"
+	android:textSize="20sp"
+	android:padding="10dp"
+	android:layout_gravity="center_horizontal|center_vertical"
+	/>
+	<Button
+	android:id="@+id/cacheonce"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/translucent_dark3"
+	android:text="@string/cachetx3" 
+	android:textColor="@color/white"
+	android:textSize="20sp"
+	android:padding="10dp"
+	android:layout_gravity="center_horizontal|center_vertical"
+	/>
+	<Button
+	android:id="@+id/cachenever"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/translucent_dark3"
+	android:text="@string/cachetx4" 
+	android:textColor="@color/white"
+	android:textSize="20sp"
+	android:padding="10dp"
+	android:layout_gravity="center_horizontal|center_vertical"
+	/>
+	<CheckBox
+	android:id="@+id/showagain"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/translucent_dark3"
+	android:textColor="@color/white"
+	android:text="@string/cachetx5" 
+	android:textSize="20sp"
+	android:layout_gravity="center_horizontal"
+	android:gravity="center_horizontal"
+	android:paddingLeft="40dp"
+	android:padding="10dp"
+	/>	
+</LinearLayout>

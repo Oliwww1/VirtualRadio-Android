@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"  
+  android:background="@android:color/transparent"
+  android:orientation="vertical"
+
+  android:layout_gravity="center_vertical|center_horizontal">
+  <TextView android:id="@+id/buydialogtx"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"  
+  android:background="@color/translucent_dark3"
+  android:textColor="@color/white"
+  android:padding="20dp"
+  android:textSize="16sp"
+  />
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"  
+  android:background="@color/translucent_dark2"
+  android:padding="20dp"
+  android:orientation="vertical"
+  ><Button
+        android:id="@+id/butok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/ok" 
+        android:textColor="@color/white"
+        android:background="@color/translucent_dark3"
+        android:textSize="16sp"/>
+        <TextView 
+          android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text=" "
+        	android:textSize="8sp"/>
+        <Button
+        android:id="@+id/butcanc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/cancel"  
+        android:textColor="@color/white"
+        android:background="@color/translucent_dark3"
+        android:textSize="16sp"/>    
+        </LinearLayout>	
+		</LinearLayout>

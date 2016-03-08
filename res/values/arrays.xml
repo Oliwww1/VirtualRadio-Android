@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="strar">
+        <item>Categories</item>
+        <item>Search</item>
+        <item>Favorites</item>
+    </string-array>
+    <string-array name="favocom">
+        <item>Play</item>
+        <item>Edit</item>
+        <item>Delete</item>
+        <item>Add new</item>
+    </string-array>
+    <string-array name="mon">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>mai</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>oct</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="searr">
+    <item>Enter something to start search</item>
+    </string-array>
+        <string-array name="favarr">
+    <item>Click checkbox on a station and it will show up in this list</item>
+    </string-array>
+</resources>

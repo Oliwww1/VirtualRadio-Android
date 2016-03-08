@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"  
+  android:background="@android:color/transparent"
+  android:orientation="vertical"
+  android:layout_gravity="center_vertical|center_horizontal">
+<Button
+	android:id="@+id/sadib1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/translucent_dark"
+	android:text="@string/savedia1" 
+	android:textColor="@color/white"
+	android:textColorHighlight="@color/white"
+	android:textSize="20sp"
+	android:padding="20dp"
+	android:layout_gravity="center_horizontal|center_vertical"
+	/> 
+	<Button
+	android:id="@+id/sadib2"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"	
+	android:text="@string/savedia2" 
+	android:background="@color/translucent_dark"
+	android:textColor="@color/white"
+	android:textColorHighlight="@color/white"
+	android:textSize="20sp"
+	android:padding="20dp"
+	android:layout_gravity="center_horizontal|center_vertical"
+	/>
+
+		<Button
+	android:id="@+id/sadib4"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"	
+	android:text="@string/savedia4" 
+	android:background="@color/translucent_dark"
+	android:textColor="@color/white"
+	android:textColorHighlight="@color/white"
+	android:textSize="20sp"
+	android:padding="20dp"
+	android:layout_gravity="center_horizontal|center_vertical"
+	/>
+</LinearLayout>
